@@ -49,4 +49,51 @@ h2 {
     margin-top: 30px;
     border-bottom: 2px solid #eee;
     padding-bottom: 10px;
+}
+
+.interests-grid {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.interests-column {
+    flex: 1;
+    max-width: 300px;
+}
+
+.interests-column h3 {
+    color: #0066cc;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.interests-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.interests-column li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.interests-column li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #0066cc;
+}
+
+@media (max-width: 600px) {
+    .interests-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .interests-column {
+        max-width: 100%;
+    }
 } 
