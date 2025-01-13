@@ -1,0 +1,52 @@
+.publications-list {
+    list-style: none;
+    padding: 0;
+}
+
+.publications-list li {
+    margin-bottom: 2em;
+    padding: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.download-button:hover {
+    background-color: #0052a3;
+}
+
+.courses {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.4;
+}
+
+ul ul {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+strong {
+    color: #333;
+}
+
+h2 {
+    color: #0066cc;
+    margin-top: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+} 
