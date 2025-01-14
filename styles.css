@@ -260,4 +260,23 @@ h2 {
 
 .experience-details li {
     margin-bottom: 0.5rem;
+}
+
+.project-links {
+    margin-top: 0.8rem;
+    font-size: 0.9em;
+}
+
+.project-links a {
+    color: #0066cc;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}
+
+.project-links i {
+    margin-right: 0.3rem;
 } 
